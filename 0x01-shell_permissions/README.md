@@ -12,6 +12,16 @@
 * How to print real and effective user and group IDs
 * How to print the groups a user is in
 * How to print the effective userid
+  REMEMBER:
+  Each permission is represented by a digit in the octal notation:
+- 0: No permission (---)
+- 1: Execute permission (--x)
+- 2: Write permission (-w-)
+- 3: Write and execute permissions (-wx)
+- 4: Read permission (r--)
+- 5: Read and execute permissions (r-x)
+- 6: Read and write permissions (rw-)
+- 7: Read, write, and execute permissions (rwx)
 ### Scripts to write
 0 Create a script that switches the current user to the user betty.
 * You should use exactly 8 characters for your command (+1 character for the new line)
