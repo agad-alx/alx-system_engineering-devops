@@ -12,8 +12,7 @@
   * How to print real and effective user and group IDs
   * How to print the groups a user is in
   * How to print the effective userid
-###### Remember:
-Each permission is represented by a digit in the octal notation:
+###### Remember: Each permission is represented by a digit in the octal notation:
 - 0: No permission (---)
 - 1: Execute permission (--x)
 - 2: Write permission (-w-)
@@ -45,18 +44,18 @@ Each permission is represented by a digit in the octal notation:
    * The file hello will be in the working directory
    * You are not allowed to use commas for this script
 10. Write a script that sets the mode of the file hello the same as olleh’s mode.
-   * The file hello will be in the working directory
-   * The file olleh will be in the working directory
-   Note: the mode of olleh will not always be 664. Make sure your script works for any mode.
+    * The file hello will be in the working directory
+    * The file olleh will be in the working directory
+    Note: the mode of olleh will not always be 664. Make sure your script works for any mode.
 11. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
-   * Regular files should not be changed.
+    * Regular files should not be changed.
 12. Create a script that creates a directory called my_dir with permissions 751 in the working directory.
 13. Write a script that changes the group owner to school for the file hello
-   * The file hello will be in the working directory 
+    * The file hello will be in the working directory 
 14. Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 15. Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
-   * The file _hello is in the working directory
-   * The file _hello is a symbolic link
+    * The file _hello is in the working directory
+    * The file _hello is a symbolic link
 16. Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
-   * The file hello will be in the working directory
+    * The file hello will be in the working directory
 17. Write a script that will play the StarWars IV episode in the terminal.
