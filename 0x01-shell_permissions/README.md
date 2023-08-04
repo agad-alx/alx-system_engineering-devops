@@ -12,7 +12,17 @@
   * How to print real and effective user and group IDs
   * How to print the groups a user is in
   * How to print the effective userid
-###### Remember: Each permission is represented by a digit in the octal notation:
+## Requirements
+### General
+  * Allowed editors: vi, vim, emacs
+  * All your scripts will be tested on Ubuntu 20.04 LTS
+  * All your scripts should be exactly two lines long ($ wc -l file should print 2)
+  * All your files should end with a new line (why?)
+  * The first line of all your files should be exactly #!/bin/bash
+  * A README.md file, at the root of the folder of the project, describing what each script is doing
+  * You are not allowed to use backticks, &&, || or ;
+  * All your files must be executable
+##### Remember: Each permission is represented by a digit in the octal notation:
 - 0: No permission (---)
 - 1: Execute permission (--x)
 - 2: Write permission (-w-)
@@ -21,7 +31,7 @@
 - 5: Read and execute permissions (r-x)
 - 6: Read and write permissions (rw-)
 - 7: Read, write, and execute permissions (rwx)
-### Scripts to write
+### Here are the script tasks;
 0. Create a script that switches the current user to the user betty.
    * You should use exactly 8 characters for your command (+1 character for the new line)
    * You can assume that the user betty will exist when we will run your script
@@ -38,7 +48,8 @@
    * Owner: no permission at all
    * Group: no permission at all
    * Other users: all the permissions
-   The file hello will be in the working directory You are not allowed to use commas for this script
+   
+     The file hello will be in the working directory You are not allowed to use commas for this script
 9. Write a script that sets the mode of the file hello to this:
    > -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
    * The file hello will be in the working directory
